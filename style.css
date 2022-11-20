@@ -60,7 +60,7 @@ h1 span{
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     cursor: pointer;
 
 }
@@ -69,6 +69,7 @@ h1 span{
     width: 100%;
     height: 0px;
     border: 1px solid #2F3E53;
+    margin: 50px 0px 50px 0px;
 }
 .render-gen-passwords{
     display: flex;
@@ -79,9 +80,40 @@ h1 span{
     height: 40px;
     background: #273549;
     border-radius: 6px;
-    margin: 40px;
     color: #7DD3FC;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.password-length{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    width: 192px;
+    height: 42px;
+    border-radius: 6px;
+}
+.password-length-contnair{
+    background-color: rgba(210, 105, 30, 0) ;
+    width: 192px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.password-length-contnair button{
+    background-color: #6B7280;
+    height: 70%;
+    width: 15%;
+    border: none;
+    border-radius: 1px;
+}
+.password-length-box{
+    background-color: #D1D5DB;
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
 }
