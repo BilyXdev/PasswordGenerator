@@ -9,7 +9,7 @@ let genPasswordTwo = document.querySelector("#gen-password-two")
 
 function generatePassword() {
     resetOnClick()
-    for (let index = 0; index < 15; index++) {
+    for (let index = 0; index < passwordLength; index++) {
         let randomCharater = Math.floor(Math.random() * characters.length)
         genPasswordOne.textContent += characters[randomCharater]
         let randomCharater2 = Math.floor(Math.random() * characters.length)
