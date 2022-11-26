@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Gen</title>
+</head>
+<body>
+    <header>
+
+        <div class="gen-body">
+
+            <div class="heading-contnair">
+                <h1>Generate a<br><span>random password</span></h1>
+                <p>Never use an insecure password again. </p>
+            </div>
+            <div class="btns-box-contnair">
+
+                <div class="spe-btns-contnair">
+
+                    <div class="spe-btns-body">
+                        <p>special characters ?</p>
+                        <p id="spe-ch-choice"></p>
+                    </div>
+                    <div class="length-contnair">
+                        <button id="remove-length">-</button>
+                        <p id="length-render"></p>
+                        <button id="add-length">+</button>
+                    </div>
+                    <div class="spe-btns-body">
+                        <p>numbers ?</p>
+                        <p id="numbers-choice"></p>
+                    </div>
+
+                </div>
+
+
+                <div class="gen-btn-contnair">
+                    <button id="gen-btn" onclick="generateRandomPassword()" >Generate passwords</button>
+                </div>
+
+            </div>
+
+            <div class="line-break"></div>
+
+            <div class="render-contnair">
+                <div class="render-box">
+                    <p id="password-one"></p>
+                </div>
+                <div class="render-box">
+                    <p id="password-two"></p>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <script src="index.js"></script>
+</body>
+</html>
